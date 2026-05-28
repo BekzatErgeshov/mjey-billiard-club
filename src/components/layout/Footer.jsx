@@ -1,4 +1,6 @@
-import { Link } from 'react-router-dom'
+'use client'
+
+import { Link } from '@/compat/router'
 import { Instagram, Phone, MapPin, Mail } from 'lucide-react'
 import { NAV_LINKS, PAYMENT_INFO } from '@/lib/constants'
 

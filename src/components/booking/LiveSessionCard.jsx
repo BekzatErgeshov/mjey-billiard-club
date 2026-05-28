@@ -1,3 +1,5 @@
+'use client'
+
 import { useLiveTimer } from '@/hooks/useLiveTimer'
 import { Activity, Square } from 'lucide-react'
 import { Button } from '@/components/ui/Button'

@@ -1,6 +1,8 @@
 node_modules
+.next
+out
+build
 dist
-dist-ssr
 *.local
 .env
 .env.local

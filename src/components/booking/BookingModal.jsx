@@ -1,5 +1,7 @@
+'use client'
+
 import { useMemo, useState, useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate } from '@/compat/router'
 import { Calendar, Clock, Coins } from 'lucide-react'
 import { Modal } from '@/components/ui/Modal'
 import { Input, Label, FieldError } from '@/components/ui/Input'

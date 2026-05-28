@@ -5,7 +5,7 @@ export function cn(...inputs) {
   return twMerge(clsx(inputs))
 }
 
-const CURRENCY = import.meta.env.VITE_CURRENCY || 'сом'
+const CURRENCY = process.env.NEXT_PUBLIC_CURRENCY || 'сом'
 
 export function formatPrice(amount) {
   const value = Number(amount || 0)
@@ -100,4 +100,4 @@ export function statusColor(status) {
   return map[status] || 'text-brand-light/70'
 }
 
-export const HOURLY_RATE_DEFAULT = Number(import.meta.env.VITE_HOURLY_RATE) || 200
+export const HOURLY_RATE_DEFAULT = Number(process.env.NEXT_PUBLIC_HOURLY_RATE) || 200

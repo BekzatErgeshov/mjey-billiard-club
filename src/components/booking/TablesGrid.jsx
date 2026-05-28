@@ -1,3 +1,5 @@
+'use client'
+
 import { motion } from 'framer-motion'
 import { Circle, Activity, Lock, Wrench } from 'lucide-react'
 import { CardSkeleton } from '@/components/ui/Skeleton'

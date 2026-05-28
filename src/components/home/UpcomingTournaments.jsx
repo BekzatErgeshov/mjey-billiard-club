@@ -1,5 +1,7 @@
+'use client'
+
 import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from '@/compat/router'
 import { motion } from 'framer-motion'
 import { Trophy, Calendar, Users, ArrowRight } from 'lucide-react'
 import { supabase } from '@/lib/supabaseClient'

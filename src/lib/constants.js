@@ -1,7 +1,7 @@
 export const PAYMENT_INFO = {
-  phone: import.meta.env.VITE_PAYMENT_PHONE || '+996 700 123 456',
-  card: import.meta.env.VITE_PAYMENT_CARD || '4444 5555 6666 7777',
-  qrUrl: import.meta.env.VITE_PAYMENT_QR_URL || '/qr-placeholder.png',
+  phone: process.env.NEXT_PUBLIC_PAYMENT_PHONE || '+996 700 123 456',
+  card: process.env.NEXT_PUBLIC_PAYMENT_CARD || '4444 5555 6666 7777',
+  qrUrl: process.env.NEXT_PUBLIC_PAYMENT_QR_URL || '/qr-placeholder.png',
 }
 
 export const TABLE_STATUSES = {

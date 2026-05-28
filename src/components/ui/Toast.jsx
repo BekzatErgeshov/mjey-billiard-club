@@ -1,3 +1,5 @@
+'use client'
+
 import { create } from 'zustand'
 import { motion, AnimatePresence } from 'framer-motion'
 import { CheckCircle2, XCircle, Info, AlertTriangle } from 'lucide-react'

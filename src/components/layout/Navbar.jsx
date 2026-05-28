@@ -1,5 +1,7 @@
+'use client'
+
 import { useEffect, useState, useRef } from 'react'
-import { Link, NavLink, useNavigate } from 'react-router-dom'
+import { Link, NavLink, useNavigate } from '@/compat/router'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, Sun, Moon, LogOut, User as UserIcon, ShieldCheck } from 'lucide-react'
 import { NAV_LINKS } from '@/lib/constants'
